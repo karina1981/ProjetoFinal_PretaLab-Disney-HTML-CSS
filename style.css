@@ -1,0 +1,258 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, 
+font, img,
+ol, ul, li,
+label,
+table, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #BE89CB;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.menuHeader {
+  max-width: 1024px ;
+  margin: auto;
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  height: 2rem;
+  justify-content: right;
+  width: 100%;
+}
+
+.menuHeader ul {
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 1rem;
+}
+
+.menuHeader ul li {
+  list-style-type: none;
+}
+
+.menuHeader a {
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.meduHeader a:active {
+  color:deeppink;
+}
+
+.menuHeader a:hover {
+  color: cornflowerblue;
+}
+
+.content {
+  background: #EDEAEA;
+}
+
+.content .container {
+  margin: auto;
+  padding: 16px;
+  max-width: 1024px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 35%;
+  justify-content: center;
+}
+
+.content .container img {
+  border-radius: 50%;
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+
+h1 {
+  color: #FF4DBC;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #FF4DBC;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #C5C0C0;
+  font-size: 18px;
+}
+
+p.personDescription {
+  color: lightslategray;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  width: 50%;
+}
+
+.contentFormacao {
+  background-color: #E5E5E5;
+}
+
+.contentFormacao .container {
+  max-width: 1024px;
+  margin: auto;
+  height: 35%;
+  padding: 1rem;
+}
+
+.contentMeusProjetos {
+  background: #EDEAEA;
+}
+
+.contentMeusProjetos .container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* SESSAO SKILL */
+.skill {
+  margin-bottom: 5%;
+  margin-left: 150px;
+  margin-top: 5%;
+}
+
+.skill .title {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.skill .subTitle {
+  color: #2f80ED;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.skill .description {
+  color: lightslategray;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+
+/* SESSAO PROJETOS */
+.project {
+  margin-bottom: 16px;
+  margin-left: 150px;
+  margin-top: 16px;
+}
+
+.project .title {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.project .subTitle {
+  color: #2f80ED;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.project .description {
+  color: lightslategray;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.contentMeusProjetos a {
+  color: #661E4B;
+  text-decoration: none;
+}
+
+.contentMeusProjetos a:active {
+  color: #5ca5a9;
+}
+
+.contentMeusProjetos a:hover {
+  color: #92de89;
+}
+
+.footer {
+  max-width: 1024px;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.footer h2 {
+  font-size: 36px;
+  color: #fff;  
+}
+
+footer {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+.footer  p {
+  display: flex;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+footer svg {
+  height: 20px;
+  fill: #fff;
+}
